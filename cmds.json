@@ -1,0 +1,212 @@
+[
+	{
+		"alias": "google",
+		"cmd":  "python3 google.py",
+		"category": [ "optimization" ],
+		"docs": "allows the user to google things"
+	},
+	{
+		"alias": "openSite",
+		"cmd": "python3 openSite.py",
+		"category": [ "optimization" ],
+		"docs": "allows the user to open up websites in the browser"
+	},
+	{
+		"alias": "go-anon",
+		"cmd": "sudo anonsurf start",
+		"category": [ "OpSec" ],
+		"docs": "allows anonsurf to run, for more info run \"hacking-tools\""
+	},
+	{
+		"alias": "de-anon",
+		"cmd": "sudo anonsurf stop",
+		"category": [ "OpSec" ],
+		"docs": "stops anonsurf, run \"hacking-tools\" for more info"
+	},
+	{
+		"alias": "update",
+		"cmd": "sudo apt update && sudo apt upgrade && sudo snap refresh && sudo flatpak update && sudo npm update && pip install --upgrade pip && update-all-pip-packages",
+		"category": [ "optimization" ],
+		"docs": "updates all repositories and packages"
+	},
+	{
+		"alias": "edit-cmd",
+		"cmd": "nano .bashrc",
+		"category": [ "optimization" ],
+		"docs": "allows for building custom commands"
+	},
+	{
+		"alias": "get-help",
+		"cmd": "python3 cmdshelper.py",
+		"category": [ "docs" ],
+		"docs": "gives docs about custom commands on the system"
+	},
+	{
+		"alias": "chatgpt",
+		"cmd": "python3 chatgpt.py",
+		"category": "optimization",
+		"docs": "opens up chatgpt in the browser"
+	},
+	{
+		"alias": "spiderfoot",
+		"cmd": "python3 spiderfoot.py",
+		"category": [
+			"OSiNT",
+			"automation"
+		],
+		"docs": "runs spiderfoot, for more info run \"hacking-tools\""
+	},
+	{
+		"alias": "spiderfoot-docs",
+		"cmd": "python3 spiderfootdocs.py",
+		"category": [ "docs" ],
+		"docs": "gives you spiderfoot docs"
+	},
+	{
+		"alias": "aliasman",
+		"cmd": "aliasman",
+		"category": [ "OpSec" ],
+		"docs": "runs aliasman, for more info run \"hacking-tools\""
+	},
+	{
+		"alias": "god",
+		"cmd": "python3 god.py",
+		"category": [
+			"automation",
+			"OpSec",
+			"cryptography",
+			"OSiNT",
+			"attacks",
+			"docs"
+		],
+		"docs": "runs god.py, a custom tool that allows any hacking tactic to be executed quickly"
+	},
+	{
+		"alias": "hacking-tools",
+		"cmd": "node nodehacks/hackingtools.js",
+		"category": [
+			"docs"
+		],
+		"docs": "gives you documentation about hacking tools on the system"
+	},
+	{
+		"alias": "torsocks-start",
+		"cmd": ". torsocks on",
+		"category": [ "OpSec" ],
+		"docs": "routes all terminal traffic via tor, see \"hacking-tools\" for more info"
+	},
+	{
+		"alias": "torsocks-stop",
+		"cmd": ". torsocks off",
+		"category": [ "OpSec" ],
+		"docs": "turns torsocks off, see \"hacking-tools\" for more info"
+	},
+	{
+		"alias": "sqlmap",
+		"cmd": "python3 sqlmap/sqlmap.py",
+		"category": [
+			"attacks",
+			"automation",
+			"injection"
+		],
+		"docs": "automates sql injections. see \"hacking-tools\" for more info"
+	},
+	{
+		"alias": "rockin_in_style_bb",
+		"cmd": "neofetch",
+		"category": [ "style" ],
+		"docs": "runs neofetch"
+	},
+	{
+		"alias": "github_open",
+		"cmd": "python3 openGithub.py",
+		"category": [ "optimization" ],
+		"docs": "opens github on the browser"
+	},
+	{
+		"alias": "satprep",
+		"cmd": "python3 satprep.py",
+		"category": [ "optimization" ],
+		"docs": "opens up SAT prep stuff on the browser"
+	},
+	{
+		"alias": "khanacademy",
+		"cmd": "python3 khanacademy.py",
+		"category": [ "optimiziation" ],
+		"docs": "opens up khan academy on the browser"
+	},
+	{
+		"alias": "webwork",
+		"cmd": "cd Documents/dev/web/projects",
+		"category": [ "optimization" ],
+		"docs": "cds into web projects currently being worked on"
+	},
+	{
+		"alias": "steghide",
+		"cmd": "steghide",
+		"category": [
+			"automation",
+			"cryptography",
+			"injection"
+		],
+		"docs": "steganography tool, see \"steghide --help\" or \"hacking-tools\" for more info"
+	},
+	{
+		"alias": "gnome-tweaks",
+		"cmd": "gnome-tweaks",
+		"category": [
+			"optimization"
+		],
+		"docs": "allows you to tweak the gnome DE"
+	},
+	{
+		"alias": "gnome-extensions",
+		"cmd": "gnome-extensions",
+		"category": [
+			"optimization"
+		],
+		"docs": "allows you to work with gnome DE extensions via the terminal"
+	},
+	{
+		"alias": "edit-commanddata",
+		"cmd": "nano cmds.json",
+		"category": [ "optimization" ],
+		"docs": "allows you to edit this file"
+	},
+	{
+		"alias": "update-all-pip-packages",
+		"cmd": "pip freeze --local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U",
+		"category": [ "optimization" ],
+		"docs": "it'll update all of your pip packages"
+	},
+	{
+		"alias": "system-upgrade-full",
+		"cmd": "sudo do-release-upgrade".
+		"category": [
+			"optimization"
+		],
+		"docs": "fully upgrades your OS, probably requires a restart"
+	},
+	{
+		"alias": "toLowerCase",
+		"cmd": "ruby tolowercase.rb",
+		"category": [
+			"optimization"
+		],
+		"docs": "prompts you to enter text that\'ll be made lowercase"
+	},
+	{
+		"alias": "toUpperCase",
+		"cmd": "java Capitalize.java",
+		"category": [
+			"optimization"
+		],
+		"docs": "prompts you to enter text that\'ll be made uppercase"
+	},
+	{
+		"alias": "spotify",
+		"cmd": "spotify",
+		"category": [ "optimization" ],
+		"docs": "opens up spotify"
+	}
+]
